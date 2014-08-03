@@ -9,4 +9,5 @@
   nil)
 
 (defmethod get-choice (turn-score dice num-dice (player ai))
+  "TODO: the decision algorithm. The output is a t/nil answer, based on: Current turn score, dice."
   (zerop (random 3)))
