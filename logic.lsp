@@ -1,6 +1,6 @@
 (in-package :greed)
 ;logic.lsp 
-; Here goes the buissness logic of the game
+; Here goes the business logic of the game
 
 (defclass dice-set ()
   ((vals :reader get-values :type 'list :initform nil)))
